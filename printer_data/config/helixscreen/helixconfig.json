@@ -68,7 +68,51 @@
         "part": "fan"
       },
       "filament_sensors": {
-        "sensors": null
+        "master_enabled": true,
+        "sensors": [
+          {
+            "enabled": true,
+            "klipper_name": "filament_switch_sensor mmu_gear_0",
+            "role": "none",
+            "type": "switch"
+          },
+          {
+            "enabled": true,
+            "klipper_name": "filament_switch_sensor mmu_gear_1",
+            "role": "none",
+            "type": "switch"
+          },
+          {
+            "enabled": true,
+            "klipper_name": "filament_switch_sensor mmu_gear_2",
+            "role": "none",
+            "type": "switch"
+          },
+          {
+            "enabled": true,
+            "klipper_name": "filament_switch_sensor mmu_gear_3",
+            "role": "none",
+            "type": "switch"
+          },
+          {
+            "enabled": true,
+            "klipper_name": "filament_switch_sensor extruder_sensor",
+            "role": "none",
+            "type": "switch"
+          },
+          {
+            "enabled": true,
+            "klipper_name": "filament_switch_sensor toolhead_sensor",
+            "role": "none",
+            "type": "switch"
+          },
+          {
+            "enabled": true,
+            "klipper_name": "filament_switch_sensor filament_tension_sensor",
+            "role": "runout",
+            "type": "switch"
+          }
+        ]
       },
       "hardware": {
         "expected": [],
@@ -130,11 +174,10 @@
         "macro_devices": [],
         "selected": [],
         "selected_strips": [
-          "neopixel mmu_leds",
-          "neopixel sb_leds"
+          "output_pin caselight"
         ],
         "startup_brightness": 80,
-        "strip": ""
+        "strip": "output_pin caselight"
       },
       "moonraker_api_key": false,
       "moonraker_host": "127.0.0.1",
