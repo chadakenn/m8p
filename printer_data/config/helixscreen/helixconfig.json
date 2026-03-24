@@ -206,19 +206,19 @@
             "rowspan": 1
           },
           {
-            "col": -1,
+            "col": 7,
             "colspan": 1,
             "enabled": true,
             "id": "ams",
-            "row": -1,
+            "row": 3,
             "rowspan": 1
           },
           {
-            "col": -1,
+            "col": 3,
             "colspan": 1,
             "enabled": true,
             "id": "led",
-            "row": -1,
+            "row": 4,
             "rowspan": 1
           },
           {
@@ -302,11 +302,11 @@
             "rowspan": 2
           },
           {
-            "col": -1,
+            "col": 4,
             "colspan": 1,
             "enabled": true,
             "id": "clog_detection",
-            "row": -1,
+            "row": 4,
             "rowspan": 1
           },
           {
