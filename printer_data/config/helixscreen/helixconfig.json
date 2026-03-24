@@ -115,7 +115,15 @@
         ]
       },
       "hardware": {
-        "expected": [],
+        "expected": [
+          "heater_bed",
+          "extruder",
+          "fan",
+          "heater_fan hotend_fan",
+          "output_pin caselight",
+          "filament_switch_sensor filament_tension_sensor",
+          "mmu"
+        ],
         "last_snapshot": {
           "fans": [
             "fan",
@@ -149,7 +157,7 @@
             "tmc5160 stepper_y",
             "temperature_fan MCU_fan"
           ],
-          "timestamp": "2026-03-24T01:41:14Z"
+          "timestamp": "2026-03-24T01:41:40Z"
         },
         "optional": []
       },
@@ -398,10 +406,12 @@
         "bed": "heater_bed",
         "hotend": "extruder"
       },
-      "type": "Voron 2.4"
+      "type": "Voron 2.4",
+      "wizard_completed": true
     },
     "show_printer_switcher": false
   },
+  "telemetry_enabled": true,
   "theme": {
     "preset": 0
   },
@@ -412,5 +422,6 @@
       }
     }
   },
-  "wifi_expected": false
+  "wifi_expected": false,
+  "wizard_completed": true
 }
