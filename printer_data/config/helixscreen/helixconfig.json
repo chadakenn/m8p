@@ -337,11 +337,11 @@
             "rowspan": 1
           },
           {
-            "col": -1,
+            "col": 5,
             "colspan": 2,
-            "enabled": false,
+            "enabled": true,
             "id": "clock",
-            "row": -1,
+            "row": 2,
             "rowspan": 1
           },
           {
