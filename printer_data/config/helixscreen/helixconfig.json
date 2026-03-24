@@ -341,8 +341,8 @@
             "colspan": 3,
             "enabled": true,
             "id": "clock",
-            "row": 2,
-            "rowspan": 1
+            "row": 1,
+            "rowspan": 2
           },
           {
             "col": -1,
