@@ -30,7 +30,15 @@
     "touch_device": ""
   },
   "language": "en",
+  "led": {
+    "selected_strips": null
+  },
   "log_path": "/tmp/helixscreen.log",
+  "printer": {
+    "leds": {
+      "startup_brightness": null
+    }
+  },
   "printers": {
     "default": {
       "default_macros": {
@@ -59,9 +67,46 @@
         "hotend": "heater_fan hotend_fan",
         "part": "fan"
       },
+      "filament_sensors": {
+        "sensors": null
+      },
       "hardware": {
         "expected": [],
-        "last_snapshot": {},
+        "last_snapshot": {
+          "fans": [
+            "fan",
+            "heater_fan hotend_fan",
+            "fan_generic 4W_FAN0",
+            "controller_fan Stepper_fan",
+            "temperature_fan MCU_fan"
+          ],
+          "filament_sensors": [
+            "filament_switch_sensor mmu_gear_0",
+            "filament_switch_sensor mmu_gear_1",
+            "filament_switch_sensor mmu_gear_2",
+            "filament_switch_sensor mmu_gear_3",
+            "filament_switch_sensor extruder_sensor",
+            "filament_switch_sensor toolhead_sensor",
+            "filament_switch_sensor filament_tension_sensor"
+          ],
+          "heaters": [
+            "heater_bed",
+            "extruder"
+          ],
+          "leds": [
+            "neopixel mmu_leds",
+            "neopixel sb_leds",
+            "output_pin caselight"
+          ],
+          "sensors": [
+            "temperature_sensor EBB_NTC",
+            "temperature_sensor eddy_mcu",
+            "tmc5160 stepper_x",
+            "tmc5160 stepper_y",
+            "temperature_fan MCU_fan"
+          ],
+          "timestamp": "2026-03-24T01:41:14Z"
+        },
         "optional": []
       },
       "heaters": {
@@ -69,7 +114,26 @@
         "hotend": "extruder"
       },
       "leds": {
+        "color_presets": [
+          "#FFFFFF",
+          "#FFD700",
+          "#FF6B35",
+          "#4FC3F7",
+          "#FF4444",
+          "#66BB6A",
+          "#9C27B0",
+          "#00BCD4"
+        ],
+        "last_brightness": 100,
+        "last_color": "#FFFFFF",
+        "led_on_at_start": false,
+        "macro_devices": [],
         "selected": [],
+        "selected_strips": [
+          "neopixel mmu_leds",
+          "neopixel sb_leds"
+        ],
+        "startup_brightness": 80,
         "strip": ""
       },
       "moonraker_api_key": false,
@@ -198,11 +262,11 @@
             "rowspan": 1
           },
           {
-            "col": -1,
+            "col": 5,
             "colspan": 1,
             "enabled": true,
             "id": "filament",
-            "row": -1,
+            "row": 4,
             "rowspan": 1
           },
           {
@@ -290,7 +354,8 @@
       "temp_sensors": {
         "bed": "heater_bed",
         "hotend": "extruder"
-      }
+      },
+      "type": "Voron 2.4"
     },
     "show_printer_switcher": false
   },
@@ -303,5 +368,6 @@
         "rows": 5
       }
     }
-  }
+  },
+  "wifi_expected": false
 }
