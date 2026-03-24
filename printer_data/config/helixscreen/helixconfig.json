@@ -29,6 +29,7 @@
     "scroll_throw": 25,
     "touch_device": ""
   },
+  "language": "en",
   "log_path": "/tmp/helixscreen.log",
   "printers": {
     "default": {
