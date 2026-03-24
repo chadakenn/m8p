@@ -416,6 +416,33 @@
             "id": "notifications",
             "row": 4,
             "rowspan": 1
+          },
+          {
+            "col": 4,
+            "colspan": 1,
+            "enabled": true,
+            "id": "power_device:1",
+            "row": 3,
+            "rowspan": 1
+          },
+          {
+            "col": 3,
+            "colspan": 1,
+            "enabled": true,
+            "id": "power_device:2",
+            "row": 3,
+            "rowspan": 1
+          },
+          {
+            "col": 3,
+            "colspan": 1,
+            "config": {
+              "display_mode": "carousel"
+            },
+            "enabled": true,
+            "id": "fan_stack:1",
+            "row": 4,
+            "rowspan": 1
           }
         ]
       },
