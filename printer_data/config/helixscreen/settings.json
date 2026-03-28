@@ -4,7 +4,7 @@
     "toolhead_style": 5
   },
   "completion_alert": 1,
-  "config_version": 8,
+  "config_version": 9,
   "dark_mode": true,
   "display": {
     "bed_mesh_render_mode": 0,
