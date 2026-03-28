@@ -304,11 +304,11 @@
                   "rowspan": 1
                 },
                 {
-                  "col": 3,
+                  "col": 5,
                   "colspan": 1,
                   "enabled": false,
                   "id": "firmware_restart",
-                  "row": 4,
+                  "row": 3,
                   "rowspan": 1
                 },
                 {
@@ -497,6 +497,14 @@
                   "id": "nozzle_temps",
                   "row": -1,
                   "rowspan": 2
+                },
+                {
+                  "col": -1,
+                  "colspan": 1,
+                  "enabled": false,
+                  "id": "active_spool",
+                  "row": -1,
+                  "rowspan": 1
                 }
               ]
             }
