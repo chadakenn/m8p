@@ -47,13 +47,6 @@
     "entries": [
       {
         "phases": {
-          "4": 40
-        },
-        "timestamp": 1774567120,
-        "total": 40
-      },
-      {
-        "phases": {
           "3": 40
         },
         "timestamp": 1774719634,
@@ -65,6 +58,13 @@
         },
         "timestamp": 1774724077,
         "total": 35
+      },
+      {
+        "phases": {
+          "4": 44
+        },
+        "timestamp": 1774729502,
+        "total": 44
       }
     ]
   },
@@ -110,7 +110,7 @@
           "material": "PLA",
           "nozzle_temp_max": 0,
           "nozzle_temp_min": 0,
-          "remaining_weight_g": 352.29364013671875,
+          "remaining_weight_g": 352.2848205566406,
           "spool_name": "polymaker PLA - Polymaker lw-pla",
           "spoolman_id": 10,
           "total_weight_g": 800.0
