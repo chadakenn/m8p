@@ -12,7 +12,7 @@
     "dim_sec": 300,
     "drm_device": "",
     "gcode_render_mode": 1,
-    "screensaver_type": 3,
+    "screensaver_type": 1,
     "sleep_sec": 600,
     "theme": "midnight"
   },
@@ -47,13 +47,6 @@
     "entries": [
       {
         "phases": {
-          "3": 35
-        },
-        "timestamp": 1774724077,
-        "total": 35
-      },
-      {
-        "phases": {
           "4": 44
         },
         "timestamp": 1774729502,
@@ -64,6 +57,13 @@
           "4": 43
         },
         "timestamp": 1774731541,
+        "total": 43
+      },
+      {
+        "phases": {
+          "4": 43
+        },
+        "timestamp": 1774750075,
         "total": 43
       }
     ]
@@ -110,7 +110,7 @@
           "material": "PLA",
           "nozzle_temp_max": 0,
           "nozzle_temp_min": 0,
-          "remaining_weight_g": 351.198486328125,
+          "remaining_weight_g": 350.5876770019531,
           "spool_name": "polymaker PLA - Polymaker lw-pla",
           "spoolman_id": 10,
           "total_weight_g": 800.0
