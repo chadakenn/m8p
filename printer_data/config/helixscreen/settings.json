@@ -181,21 +181,12 @@
             "controller_fan Stepper_fan",
             "temperature_fan MCU_fan"
           ],
-          "filament_sensors": [
-            "filament_switch_sensor mmu_gear_0",
-            "filament_switch_sensor mmu_gear_1",
-            "filament_switch_sensor mmu_gear_2",
-            "filament_switch_sensor mmu_gear_3",
-            "filament_switch_sensor extruder_sensor",
-            "filament_switch_sensor toolhead_sensor",
-            "filament_switch_sensor filament_tension_sensor"
-          ],
+          "filament_sensors": [],
           "heaters": [
             "heater_bed",
             "extruder"
           ],
           "leds": [
-            "neopixel mmu_leds",
             "neopixel sb_leds",
             "output_pin caselight"
           ],
@@ -206,7 +197,7 @@
             "tmc5160 stepper_y",
             "temperature_fan MCU_fan"
           ],
-          "timestamp": "2026-03-29T12:37:25Z"
+          "timestamp": "2026-04-01T23:17:58Z"
         },
         "optional": []
       },
