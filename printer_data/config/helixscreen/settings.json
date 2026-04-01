@@ -188,7 +188,7 @@
           ],
           "leds": [
             "neopixel sb_leds",
-            "output_pin caselight"
+            "led Printer_Lights"
           ],
           "sensors": [
             "temperature_sensor EBB_NTC",
@@ -197,7 +197,7 @@
             "tmc5160 stepper_y",
             "temperature_fan MCU_fan"
           ],
-          "timestamp": "2026-04-01T23:49:48Z"
+          "timestamp": "2026-04-01T23:56:17Z"
         },
         "optional": []
       },
@@ -222,7 +222,8 @@
         "macro_devices": [],
         "selected": [],
         "selected_strips": [
-          "output_pin caselight"
+          "neopixel sb_leds",
+          "led Printer_Lights"
         ],
         "startup_brightness": 80,
         "strip": "output_pin caselight"
