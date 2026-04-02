@@ -181,7 +181,9 @@
             "controller_fan Stepper_fan",
             "temperature_fan MCU_fan"
           ],
-          "filament_sensors": [],
+          "filament_sensors": [
+            "filament_switch_sensor filament_sensor"
+          ],
           "heaters": [
             "heater_bed",
             "extruder"
@@ -197,7 +199,7 @@
             "tmc5160 stepper_y",
             "temperature_fan MCU_fan"
           ],
-          "timestamp": "2026-04-01T23:56:17Z"
+          "timestamp": "2026-04-02T00:02:15Z"
         },
         "optional": []
       },
