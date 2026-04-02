@@ -193,13 +193,13 @@
             "led Printer_Lights"
           ],
           "sensors": [
+            "temperature_sensor btt_eddy_mcu",
             "temperature_sensor EBB_NTC",
-            "temperature_sensor eddy_mcu",
             "tmc5160 stepper_x",
             "tmc5160 stepper_y",
             "temperature_fan MCU_fan"
           ],
-          "timestamp": "2026-04-02T01:11:27Z"
+          "timestamp": "2026-04-02T02:13:35Z"
         },
         "optional": []
       },
