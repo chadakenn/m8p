@@ -12,7 +12,7 @@
     "dim_sec": 300,
     "drm_device": "",
     "gcode_render_mode": 1,
-    "screensaver_migration_notice_pending": true,
+    "screensaver_migration_notice_pending": false,
     "screensaver_type": 0,
     "sleep_sec": 600,
     "theme": "midnight"
@@ -39,6 +39,9 @@
   },
   "language": "en",
   "led": {
+    "auto_state": {
+      "enabled": null
+    },
     "selected_strips": null
   },
   "log_path": "/tmp/helixscreen.log",
@@ -178,7 +181,8 @@
             "temperature_fan MCU_fan"
           ],
           "filament_sensors": [
-            "filament_switch_sensor filament_sensor"
+            "filament_switch_sensor filament_sensor",
+            "filament_switch_sensor post_extruder"
           ],
           "heaters": [
             "heater_bed",
@@ -195,7 +199,7 @@
             "tmc5160 stepper_y",
             "temperature_fan MCU_fan"
           ],
-          "timestamp": "2026-04-18T16:14:06Z"
+          "timestamp": "2026-06-21T16:54:42Z"
         },
         "optional": []
       },
@@ -204,6 +208,9 @@
         "hotend": "extruder"
       },
       "leds": {
+        "auto_state": {
+          "mappings": null
+        },
         "color_presets": [
           "#FFFFFF",
           "#FFD700",
@@ -500,11 +507,86 @@
                   "id": "active_spool",
                   "row": -1,
                   "rowspan": 1
+                },
+                {
+                  "col": -1,
+                  "colspan": 1,
+                  "enabled": false,
+                  "id": "power_device",
+                  "row": -1,
+                  "rowspan": 1
+                },
+                {
+                  "col": 5,
+                  "colspan": 1,
+                  "enabled": true,
+                  "id": "fan_stack",
+                  "row": 3,
+                  "rowspan": 1
+                },
+                {
+                  "col": -1,
+                  "colspan": 1,
+                  "enabled": false,
+                  "id": "fan",
+                  "row": -1,
+                  "rowspan": 1
+                },
+                {
+                  "col": -1,
+                  "colspan": 1,
+                  "enabled": false,
+                  "id": "chamber_temperature",
+                  "row": -1,
+                  "rowspan": 1
+                },
+                {
+                  "col": -1,
+                  "colspan": 1,
+                  "enabled": false,
+                  "id": "thermistor",
+                  "row": -1,
+                  "rowspan": 1
+                },
+                {
+                  "col": -1,
+                  "colspan": 2,
+                  "enabled": false,
+                  "id": "temp_graph",
+                  "row": -1,
+                  "rowspan": 2
+                },
+                {
+                  "col": -1,
+                  "colspan": 1,
+                  "enabled": false,
+                  "id": "favorite_macro",
+                  "row": -1,
+                  "rowspan": 1
+                },
+                {
+                  "col": -1,
+                  "colspan": 1,
+                  "enabled": false,
+                  "id": "motion",
+                  "row": -1,
+                  "rowspan": 1
+                },
+                {
+                  "col": -1,
+                  "colspan": 2,
+                  "enabled": false,
+                  "id": "control_buttons",
+                  "row": -1,
+                  "rowspan": 1
                 }
               ]
             }
           ]
         }
+      },
+      "probe_sensors": {
+        "sensors": null
       },
       "temp_sensors": {
         "bed": "heater_bed",
