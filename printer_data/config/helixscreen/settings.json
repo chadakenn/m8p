@@ -104,15 +104,15 @@
         "external_spool": {
           "assigned": true,
           "bed_temp": 65,
-          "brand": "polymaker",
-          "color_rgb": 6315614,
+          "brand": "ELEGOO",
+          "color_rgb": 0,
           "material": "PLA",
           "nozzle_temp_max": 0,
           "nozzle_temp_min": 0,
-          "remaining_weight_g": 799.4480590820313,
-          "spool_name": "polymaker PLA - Polymaker lw-pla",
-          "spoolman_id": 10,
-          "total_weight_g": 800.0
+          "remaining_weight_g": 0.0,
+          "spool_name": "ELEGOO PLA - ELEGOO Black",
+          "spoolman_id": 1,
+          "total_weight_g": 1000.0
         }
       },
       "filament_sensors": {
