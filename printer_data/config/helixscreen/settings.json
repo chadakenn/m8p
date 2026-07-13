@@ -4,7 +4,7 @@
     "toolhead_style": 5
   },
   "completion_alert": 1,
-  "config_version": 18,
+  "config_version": 19,
   "dark_mode": true,
   "display": {
     "bed_mesh_render_mode": 0,
@@ -12,6 +12,7 @@
     "dim_sec": 300,
     "drm_device": "",
     "gcode_render_mode": 1,
+    "gpu_3d_blocked": false,
     "screensaver_migration_notice_pending": false,
     "screensaver_type": 0,
     "sleep_sec": 600,
